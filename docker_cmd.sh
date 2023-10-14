@@ -7,4 +7,4 @@ swapon /swapfile
 echo 1 > /proc/sys/vm/overcommit_memory
 
 # run the application
-/pb/pocketbase serve --https=benchmarks-production.up.railway.app
+/pb/pocketbase serve --https=benchmarks-production.up.railway.app:443
